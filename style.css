@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.nav-bar img {
+  margin-left: 20px;
+  width: 300px;
+  padding-bottom: 30px;
+}
+
+/* Top navbar styling */
+.nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Middle content box styling */
+.top-container {
+  background-image: url("bg.avif");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.top-container h1 {
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 5px;
+}
+
+.nav-bar li {
+  list-style: none;
+  margin: 10px;
+}
+.nav-bar a {
+  text-decoration: none;
+}
+
+.nav-bar ul {
+  display: flex;
+  margin-right: 10%;
+}
+
+.text {
+  padding: 10px 5%;
+}
+
+/* Footer Styling */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.nav-bar a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: blue;
+  text-decoration: underline;
+}
